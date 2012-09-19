@@ -5,7 +5,7 @@ Description
 -------
 <p>I like playing the card game <a href="http://en.wikipedia.org/wiki/Cribbage">Cribbage</a>. I wanted to find out the following:</p>
 
- *  The average score is for a hand during "The Show" play.
+ *  The average score for a hand during the "Show" play.
  *  Where most of the points come from. 
  
 <p>Here is a sample output:</p>
@@ -22,9 +22,9 @@ Sample Count:  700000
 Run Time:      656.832999945 seconds
 ```
 
-<p>The above output represents scoring for "The Show" play, scoring comes from picking 4 best cards (that result in highest score) out of the randomly dealt 6 and counting the score for the 4 cards plus a extra cut-card.</p>
+<p>The above output represents scoring for the "Show" play with a dealt sample count of 700000. Scoring comes from picking 4 best cards (that result in highest score) out of the randomly dealt 6 and counting the score for the 4 cards plus a extra cut-card.</p>
 
-<p>My approach involved making class that represents a set of playing cards which has methods for calucating the cribbage score no matter how many cards there are.</p>
+<p>My approach involved making class that represents a set of playing cards which has methods for calucating the cribbage score no matter how many cards there are. You could count the score of entire deck of cards but it would take a very long time.</p>
 
 Restrictions
 -------
