@@ -3,10 +3,10 @@ Cribbage-Stat
 
 Description
 -------
-<p>I like playing the card game <a href="http://en.wikipedia.org/wiki/Cribbage">Cribbage</a>. I wanted to find out the following:
+<p>I like playing the card game <a href="http://en.wikipedia.org/wiki/Cribbage">Cribbage</a>. I wanted to find out the following:</p>
 
- * The average score is for a hand during "The Show" play.
- * Where most of the points come from. 
+ *  The average score is for a hand during "The Show" play.
+ *  Where most of the points come from. 
  
 <p>Here is a sample output:</p>
  
