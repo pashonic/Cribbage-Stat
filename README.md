@@ -3,7 +3,12 @@ Cribbage-Stat
 
 Description
 -------
-<p>I like playing the game <a href="http://en.wikipedia.org/wiki/Cribbage">Cribbage</a> and I wanted to find out what the average score is for a hand and where most of the points come from. Here is a sample output:</p>
+<p>I like playing the card game <a href="http://en.wikipedia.org/wiki/Cribbage">Cribbage</a>. I wanted to find out the following:
+
+ * The average score is for a hand during "The Show" play.
+ * Where most of the points come from. 
+ 
+<p>Here is a sample output:</p>
  
 ``` 
 Average Score: 8.1933 
