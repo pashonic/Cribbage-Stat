@@ -17,9 +17,9 @@ Sample Count:  700000
 Run Time:      656.832999945 seconds
 ```
 
-<p>The above output represents scoring for the Show, scoring comes from picking 4 best cards out of 6 and counting the score for the 4 best cards plus a cut-card </p>
+<p>The above output represents scoring for "The Show" play, scoring comes from picking 4 best cards (that result in highest score) out of the randomly dealt 6 and counting the score for the 4 cards plus a extra cut-card.</p>
 
-<p>I made a class that represents a set of playing cards which has methods for calucating the cribbage score no matter how many cards there are.</p>
+<p>My approach involved making class that represents a set of playing cards which has methods for calucating the cribbage score no matter how many cards there are.</p>
 
 Restrictions
 -------
@@ -28,4 +28,4 @@ Restrictions
 Usage
 -------
 Just Run it...<br>
-python CribStat.py
+<b>python CribStat.py</b>
