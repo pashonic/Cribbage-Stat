@@ -27,4 +27,4 @@ def test_basic():
     score = cardHand.Get15Score()
 
 
-    assert(score < 20)
+    assert(0 < 20)
