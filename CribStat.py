@@ -19,7 +19,6 @@
 
 from random import choice
 import itertools
-import sets
 import sys
 import time
 
@@ -66,7 +65,7 @@ class CardSet:
 
     def ShowCards(self):
         for card in self.Cards:
-            print card['face'] + '|' + card['suit']
+            print (card['face'] + '|' + card['suit'])
 
     def DealCards(self, numberOfCards):
         newCardSet = CardSet()
@@ -218,7 +217,7 @@ totalRunScore = 0
 totalPairScore = 0
 totalNobScore = 0
 totalFlushScore = 0
-sampleCount = 7000
+sampleCount = 50
 startTime = time.time()
 for samples in range(sampleCount):
 
@@ -262,14 +261,6 @@ for samples in range(sampleCount):
 # Show results.
 #
 
-rightJust = 15
+rightJust = 20
 totalScore = total15Score + totalRunScore + totalPairScore + totalNobScore + totalFlushScore
-print '{0}{1}'.format('Average Score:'.ljust(rightJust), (totalScore / float(sampleCount)))
-print '{0}{1:.2%}'.format('15 Score:'.ljust(rightJust), (total15Score / float(totalScore)))
-print '{0}{1:.2%}'.format('Run Score:'.ljust(rightJust), (totalRunScore / float(totalScore)))
-print '{0}{1:.2%}'.format('Pair Score:'.ljust(rightJust), (totalPairScore / float(totalScore)))
-print '{0}{1:.2%}'.format('Flush Score:'.ljust(rightJust), (totalFlushScore / float(totalScore)))
-print '{0}{1:.2%}'.format('Nob Score:'.ljust(rightJust), (totalNobScore / float(totalScore)))
-print '---------'
-print '{0}{1}'.format('Sample Count:'.ljust(rightJust), sampleCount)
-print '{0}{1} seconds'.format('Run Time:'.ljust(rightJust), time.time() - startTime)
+print ('{0}{1}'.format('Average Score:'.ljust(rightJust), (totalScore / float(sampleCount))))
